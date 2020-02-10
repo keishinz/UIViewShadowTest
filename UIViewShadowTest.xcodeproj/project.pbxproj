@@ -13,6 +13,7 @@
 		808030A823F14662000F460E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808030A623F14662000F460E /* Main.storyboard */; };
 		808030AA23F14663000F460E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808030A923F14663000F460E /* Assets.xcassets */; };
 		808030AD23F14663000F460E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808030AB23F14663000F460E /* LaunchScreen.storyboard */; };
+		808030B523F162E9000F460E /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808030B423F162E9000F460E /* UIView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		808030A923F14663000F460E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		808030AC23F14663000F460E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		808030AE23F14663000F460E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808030B423F162E9000F460E /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				808030A023F14662000F460E /* AppDelegate.swift */,
 				808030A223F14662000F460E /* SceneDelegate.swift */,
 				808030A423F14662000F460E /* ViewController.swift */,
+				808030B423F162E9000F460E /* UIView+.swift */,
 				808030A623F14662000F460E /* Main.storyboard */,
 				808030A923F14663000F460E /* Assets.xcassets */,
 				808030AB23F14663000F460E /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808030B523F162E9000F460E /* UIView+.swift in Sources */,
 				808030A523F14662000F460E /* ViewController.swift in Sources */,
 				808030A123F14662000F460E /* AppDelegate.swift in Sources */,
 				808030A323F14662000F460E /* SceneDelegate.swift in Sources */,
