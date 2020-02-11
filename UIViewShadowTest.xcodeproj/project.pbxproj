@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8052BE8823F23F1000FAFD10 /* SwiftyInnerShadowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052BE8523F23F1000FAFD10 /* SwiftyInnerShadowLayer.swift */; };
+		8052BE8923F23F1000FAFD10 /* SwiftyInnerShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052BE8623F23F1000FAFD10 /* SwiftyInnerShadowView.swift */; };
+		8052BE8A23F23F1000FAFD10 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052BE8723F23F1000FAFD10 /* UIView.swift */; };
 		808030A123F14662000F460E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808030A023F14662000F460E /* AppDelegate.swift */; };
 		808030A323F14662000F460E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808030A223F14662000F460E /* SceneDelegate.swift */; };
 		808030A523F14662000F460E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808030A423F14662000F460E /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8052BE8523F23F1000FAFD10 /* SwiftyInnerShadowLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyInnerShadowLayer.swift; sourceTree = "<group>"; };
+		8052BE8623F23F1000FAFD10 /* SwiftyInnerShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyInnerShadowView.swift; sourceTree = "<group>"; };
+		8052BE8723F23F1000FAFD10 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		8080309D23F14662000F460E /* UIViewShadowTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewShadowTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		808030A023F14662000F460E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		808030A223F14662000F460E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +68,9 @@
 				808030A223F14662000F460E /* SceneDelegate.swift */,
 				808030A423F14662000F460E /* ViewController.swift */,
 				808030B423F162E9000F460E /* UIView+.swift */,
+				8052BE8523F23F1000FAFD10 /* SwiftyInnerShadowLayer.swift */,
+				8052BE8623F23F1000FAFD10 /* SwiftyInnerShadowView.swift */,
+				8052BE8723F23F1000FAFD10 /* UIView.swift */,
 				808030A623F14662000F460E /* Main.storyboard */,
 				808030A923F14663000F460E /* Assets.xcassets */,
 				808030AB23F14663000F460E /* LaunchScreen.storyboard */,
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8052BE8823F23F1000FAFD10 /* SwiftyInnerShadowLayer.swift in Sources */,
 				808030B523F162E9000F460E /* UIView+.swift in Sources */,
 				808030A523F14662000F460E /* ViewController.swift in Sources */,
+				8052BE8A23F23F1000FAFD10 /* UIView.swift in Sources */,
+				8052BE8923F23F1000FAFD10 /* SwiftyInnerShadowView.swift in Sources */,
 				808030A123F14662000F460E /* AppDelegate.swift in Sources */,
 				808030A323F14662000F460E /* SceneDelegate.swift in Sources */,
 			);
